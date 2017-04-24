@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tibet Daily News</string>
+    <string name="userNameOrEmail">Enter user name or email</string>
+    <string name="login">Login</string>
+    <string name="userPassword">Enter your password</string>
+    <string name="tibetdailynews">TDN</string>
+    <string name="title">The era of digital technology</string>
+    <string name="time">12min</string>
+    <string name="categoryName">Business</string>
+    <string name="baseUrl">https://jsonplaceholder.typicode.com/</string>
+    <string name="thereisnodata">There is no data</string>
+</resources>

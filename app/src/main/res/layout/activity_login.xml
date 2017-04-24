@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.potalainfotech.tibetdailynews.LoginActivity">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/app_bar" />
+
+    <TextView
+        android:paddingTop="40dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:hint="@string/userNameOrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:hint="@string/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <Button
+        android:text="@string/login"
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
