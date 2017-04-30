@@ -24,15 +24,12 @@ public class Splash extends AppCompatActivity {
 
         Glide.with(this).fromResource()
                 .asBitmap()
-                .encoder(new BitmapEncoder(Bitmap.CompressFormat.PNG, 100)).load(R.drawable.flash).into(splashImage);
+                .encoder(new BitmapEncoder(Bitmap.CompressFormat.PNG, 100)).load(R.drawable.flower).into(splashImage);
         new Handler().postDelayed(new Runnable() {
 
             @Override
             public void run() {
                 Intent i = new Intent(Splash.this, DashboardActivity.class);
-
-
-
                 startActivity(i);
                 finish();
             }

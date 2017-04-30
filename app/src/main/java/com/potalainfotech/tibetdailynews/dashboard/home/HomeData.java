@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard;
+package com.potalainfotech.tibetdailynews.dashboard.home;
 
 /**
  * Created by tenzi on 4/24/2017.

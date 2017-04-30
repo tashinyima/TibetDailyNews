@@ -9,4 +9,13 @@
     <string name="categoryName">Business</string>
     <string name="baseUrl">https://jsonplaceholder.typicode.com/</string>
     <string name="thereisnodata">There is no data</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabHome">Home</string>
+    <string name="tabOpinion">Opinion</string>
+    <string name="tabPopular">Popular</string>
+    <string name="titletext">Rosetta: Mission control confirms probes has \'crash landed\'</string>
+    <string name="headerHourTextView">1 hour ago</string>
+    <string name="headerCatText"><![CDATA[Science & Environment]]></string>
 </resources>

@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard;
+package com.potalainfotech.tibetdailynews.dashboard.home;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -12,9 +12,9 @@ import com.potalainfotech.tibetdailynews.R;
  */
 
 public class HomeViewHolder extends RecyclerView.ViewHolder {
+
     TextView title,description,date,category,author;
     ImageView featuredImgUrl;
-
 
 
     public HomeViewHolder(View itemView) {

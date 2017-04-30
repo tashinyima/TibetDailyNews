@@ -7,18 +7,6 @@
     android:orientation="vertical"
     tools:context="com.potalainfotech.tibetdailynews.LoginActivity">
 
-    <include
-        android:id="@id/toolbar"
-        layout="@layout/app_bar" />
-
-    <TextView
-        android:paddingTop="40dp"
-        android:gravity="center"
-        android:text="@string/app_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
     <EditText
         android:id="@+id/userNameEditText"
         android:background="@android:color/transparent"
