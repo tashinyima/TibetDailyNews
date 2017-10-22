@@ -1,8 +1,8 @@
-package com.potalainfotech.tibetdailynews.dashboard.home;
+package com.potalainfotech.tibetdailynews.fragments.home;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Created by tenzi on 4/24/2017.
  */
 
-public class HomepagersAdapter extends FragmentPagerAdapter {
+public class HomepagersAdapter extends FragmentStatePagerAdapter{
 
     // Create list of fragment and fragement title.
 
@@ -29,16 +29,19 @@ public class HomepagersAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+
         return fragments.get(position);
     }
 
     @Override
     public int getCount() {
+
         return fragments.size();
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
+
         return tabtitles.get(position);
     }
 }

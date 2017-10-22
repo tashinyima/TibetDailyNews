@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard.popular;
+package com.potalainfotech.tibetdailynews.fragments.popular;
 
 
 import android.os.Bundle;

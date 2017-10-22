@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard.home;
+package com.potalainfotech.tibetdailynews.fragments.home;
 
 
 import android.content.Context;

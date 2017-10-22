@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard.home;
+package com.potalainfotech.tibetdailynews.fragments.home;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,6 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.potalainfotech.tibetdailynews.R;
-import com.potalainfotech.tibetdailynews.dashboard.home.HomeData;
-import com.potalainfotech.tibetdailynews.dashboard.home.HomeViewHolder;
 
 import java.util.ArrayList;
 

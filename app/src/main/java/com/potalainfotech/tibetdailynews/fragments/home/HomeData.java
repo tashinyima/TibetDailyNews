@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard.home;
+package com.potalainfotech.tibetdailynews.fragments.home;
 
 /**
  * Created by tenzi on 4/24/2017.
@@ -6,7 +6,7 @@ package com.potalainfotech.tibetdailynews.dashboard.home;
 
 public class HomeData {
 
-    String featuredImageUrl,title,description,date,category,author;
+   private String featuredImageUrl,title,description,date,category,author;
 
 
     public HomeData(String featuredImageUrl, String title, String description, String date, String category, String author) {

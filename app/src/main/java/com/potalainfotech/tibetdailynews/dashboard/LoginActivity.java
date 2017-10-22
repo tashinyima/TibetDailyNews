@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews;
+package com.potalainfotech.tibetdailynews.dashboard;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.potalainfotech.tibetdailynews.dashboard.DashboardActivity;
+import com.potalainfotech.tibetdailynews.R;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     EditText userNameorEmailet,userPasswordet;

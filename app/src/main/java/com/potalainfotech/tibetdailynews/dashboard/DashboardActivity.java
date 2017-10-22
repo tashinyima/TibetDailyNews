@@ -1,18 +1,16 @@
 package com.potalainfotech.tibetdailynews.dashboard;
 
-import android.content.Context;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import com.potalainfotech.tibetdailynews.R;
-import com.potalainfotech.tibetdailynews.dashboard.home.HomeFragment;
-import com.potalainfotech.tibetdailynews.dashboard.home.HomepagersAdapter;
-import com.potalainfotech.tibetdailynews.dashboard.opinion.OpinionFragment;
-import com.potalainfotech.tibetdailynews.dashboard.popular.PopularFragment;
+import com.potalainfotech.tibetdailynews.fragments.home.HomeFragment;
+import com.potalainfotech.tibetdailynews.fragments.home.HomepagersAdapter;
+import com.potalainfotech.tibetdailynews.fragments.opinion.OpinionFragment;
+import com.potalainfotech.tibetdailynews.fragments.popular.PopularFragment;
 
 public class DashboardActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard.opinion;
+package com.potalainfotech.tibetdailynews.fragments.opinion;
 
 
 import android.os.Bundle;

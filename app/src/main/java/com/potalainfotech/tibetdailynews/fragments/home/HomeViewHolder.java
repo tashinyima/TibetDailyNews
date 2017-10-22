@@ -1,4 +1,4 @@
-package com.potalainfotech.tibetdailynews.dashboard.home;
+package com.potalainfotech.tibetdailynews.fragments.home;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
