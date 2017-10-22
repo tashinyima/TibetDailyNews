@@ -16,10 +16,10 @@ import com.potalainfotech.tibetdailynews.dashboard.popular.PopularFragment;
 
 public class DashboardActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
-    TabLayout tabLayout;
-    ViewPager viewPager;
-    HomepagersAdapter pagersAdapter;
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private HomepagersAdapter pagersAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
