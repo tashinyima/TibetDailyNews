@@ -17,9 +17,6 @@ import com.potalainfotech.tibetdailynews.dashboard.popular.PopularFragment;
 public class DashboardActivity extends AppCompatActivity {
 
     Toolbar toolbar;
-    RecyclerView recycler;
-    Context context;
-
     TabLayout tabLayout;
     ViewPager viewPager;
     HomepagersAdapter pagersAdapter;
